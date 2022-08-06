@@ -3,8 +3,8 @@ package com.blz.SnakeAndLadder;
 public class SnakeAndLadderMain {
     public static void main(String[] args) {
         System.out.println("welcome to snake and ladder game");
-        RollDice rollDice = new RollDice();
-        rollDice.rollDice();
+        CheckForOptions checkForOptions = new CheckForOptions();
+        checkForOptions.CheckForOption();
 
     }
 }
