@@ -4,8 +4,8 @@ public class SnakeAndLadderMain {
     public static void main(String[] args) {
         System.out.println("welcome to snake and ladder game");
 
-        WinPosition winPosition = new WinPosition();
-        winPosition.winPosition();
+        CountDice countDice = new CountDice();
+        countDice.countDiceRolls();
 
 
     }
